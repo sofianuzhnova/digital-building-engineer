@@ -15,3 +15,7 @@
 @media print{.presentation{padding:15px;background:#eaece2!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}.presentation-toolbar,.presentation .back-link{display:none}.presentation-header h1{font-size:28px}.presentation-header p{font-size:11px}.screen-gallery{display:flex;justify-content:center;gap:30px;margin:30px 0}.screen-gallery .phone{width:265px;height:580px;box-shadow:none}.screen-gallery>figure{break-inside:avoid}.presentation-footer{font-size:9px}@page{size:A4 landscape;margin:10mm}}
 
 .contact-details .contact-placeholder{font-size:10px;max-width:360px;border-left:2px solid var(--accent);padding-left:13px}.contact-details a:not([href]){cursor:text;color:var(--muted)}
+
+/* Spacing for the published website after removing editorial captions. */
+.hero-visual .floating-status{bottom:24px}.demo-copy>.text-link.light{margin-top:22px}
+@media(max-width:620px){.hero-visual .floating-status{bottom:18px}}
